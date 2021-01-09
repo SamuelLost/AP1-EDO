@@ -16,7 +16,7 @@ def modelo(S,t):
     return dSdt
  
 # Condição inicial
-y0 = [5000]
+y0 = [5000, 4000, 2000]
  
 # Intervalo de tempo
 t = np.linspace(0,14,100)
