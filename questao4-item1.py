@@ -8,7 +8,7 @@ from scipy.integrate import odeint
 import matplotlib.pyplot as plt
 
 def modelo(y, x):
-    dydx = -(3*(x**2) + 2*x*y + (y**3))/(x**2 + y**2)
+    dydx = -(3*(x**2)*y + 2*x*y + (y**3))/(x**2 + y**2)
     return dydx
 #Vetor de condições inicias
 y0 = [0.5,1,1.5,2,2.5,3,3.5,4,4.5] 
